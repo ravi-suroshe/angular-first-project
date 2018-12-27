@@ -49,3 +49,29 @@
   margin-right: .8em;
   border-radius: 4px 0 0 4px;
 }
+
+button {
+  margin-top: 20px;
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+  margin-left: 10px;
+}
+
+.addHero{
+  margin-bottom: 30px;
+  margin-left: 7px;
+  margin-top: -16px;
+}
+
+button.delete {
+  position: relative;
+  left: 180px;
+  top: -52px;
+  background-color: gray !important;
+  color: white;
+}
